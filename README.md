@@ -239,28 +239,29 @@ Redis (ElastiCache)
 
 FAISS vector index
 
-Traffic flow:
-
-Frontend
-   ↓
-Nginx Reverse Proxy
-   ↓
-Internal Load Balancer
-   ↓
-FastAPI Backend
-📂 Project Structure
-app
- ├── api
- ├── core
- ├── db
- ├── retrieval
- ├── services
- └── utils
-
-Dockerfile
-docker-compose.yml
-requirements.txt
-README.md
+            Traffic flow:
+            
+            Frontend
+               ↓
+            Nginx Reverse Proxy
+               ↓
+            Internal Load Balancer
+               ↓
+            FastAPI Backend
+            📂 Project Structure
+            app
+             ├── api
+             ├── core
+             ├── db
+             ├── retrieval
+             ├── services
+             └── utils
+            
+            Dockerfile
+            docker-compose.yml
+            requirements.txt
+            README.md
+            
 🔮 Future Improvements
 
 Cross-encoder reranking
