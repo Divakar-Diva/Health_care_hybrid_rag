@@ -90,6 +90,8 @@ Average RAG score
           Internal Load Balancer
                        │
                FastAPI Backend
+
+               
             (Hybrid RAG Pipeline)
                        │
         ┌──────────────┼──────────────┐
@@ -157,6 +159,7 @@ AWS RDS
 AWS ElastiCache
 
 AWS Load Balancer
+
 
 📡 API Endpoints
 Query RAG System
