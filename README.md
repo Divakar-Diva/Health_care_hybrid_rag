@@ -74,7 +74,8 @@ Average recall
 
 Average RAG score
 
-🏗 System Architecture
+             🏗 System Architecture
+
                     Internet
                        │
              External Load Balancer
@@ -95,32 +96,35 @@ Average RAG score
         │              │              │
      PostgreSQL       Redis          FAISS
        (RDS)       (ElastiCache)   Vector Index
-🧠 RAG Pipeline
-User Query
-   │
-   ▼
-Query Rewrite (LLM)
-   │
-   ▼
-Hybrid Retrieval
-   │
-   ├── FAISS Vector Search
-   └── PostgreSQL BM25 Search
-   │
-   ▼
-Reciprocal Rank Fusion
-   │
-   ▼
-Top Context Chunks
-   │
-   ▼
-LLM Answer Generation
-   │
-   ▼
-Evaluation + Logging
-   │
-   ▼
-Redis Cache
+       
+                🧠 RAG Pipeline
+                
+                    User Query
+                       │
+                       ▼
+                    Query Rewrite (LLM)
+                       │
+                       ▼
+                    Hybrid Retrieval
+                       │
+                       ├── FAISS Vector Search
+                       └── PostgreSQL BM25 Search
+                       │
+                       ▼
+                    Reciprocal Rank Fusion
+                       │
+                       ▼
+                    Top Context Chunks
+                       │
+                       ▼
+                    LLM Answer Generation
+                       │
+                       ▼
+                    Evaluation + Logging
+                       │
+                       ▼
+                    Redis Cache
+                    
 🛠 Tech Stack
 Backend
 
