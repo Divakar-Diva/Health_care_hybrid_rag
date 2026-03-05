@@ -187,6 +187,43 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file. However, if you prefer, 
 #  you could uncomment the following to ignore the entire vscode folder
 # .vscode/
+# -------------------------
+# Logs
+# -------------------------
+*.log
+logs/
+
+# -------------------------
+# Python Build Files
+# -------------------------
+build/
+dist/
+*.egg-info/
+
+# -------------------------
+# Docker
+# -------------------------
+docker-compose.override.yml
+
+# -------------------------
+# FAISS Vector Index
+# -------------------------
+faiss_index/
+*.faiss
+*.index
+
+# -------------------------
+# Database
+# -------------------------
+*.sqlite3
+*.db
+
+# -------------------------
+# Temporary Files
+# -------------------------
+tmp/
+temp/
+*.tmp
 
 # Ruff stuff:
 .ruff_cache/
