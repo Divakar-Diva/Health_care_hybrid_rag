@@ -137,7 +137,10 @@ celerybeat.pid
 # Environments
 .env
 .envrc
-.med_rag
+.venv
+
+# Virtual environments
+med_rag/
 env/
 venv/
 ENV/
