@@ -6,8 +6,6 @@ The system combines dense vector retrieval, keyword search, LLM generation, and 
 
 🚀 Demo
 
-📹 Add your demo video here
-
 Example workflow:
 
 1️⃣ Upload medical PDF
